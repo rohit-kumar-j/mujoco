@@ -64,6 +64,21 @@ set(MUJOCO_HEADERS
     include/mujoco/mjvisualize.h
     include/mujoco/mjxmacro.h
     include/mujoco/mujoco.h
+
+    # Simulate Headers and sources
+    simulate/array_safety.h
+    simulate/glfw_dispatch.h
+    simulate/glfw_dispatch.cc
+    simulate/glfw_adapter.h
+    simulate/glfw_adapter.cc
+    simulate/glfw_corevideo.h
+    simulate/glfw_corevideo.mm
+    simulate/macos_gui.mm
+    simulate/platform_ui_adapter.h
+    simulate/platform_ui_adapter.cc
+    simulate/simulate.h
+    simulate/simulate.cc
+    simulate/main.cc
 )
 
 # Add metadata to mujoco.dll when building on Windows.
